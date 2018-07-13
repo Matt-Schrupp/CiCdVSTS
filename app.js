@@ -37,5 +37,5 @@ var bot = new builder.UniversalBot(connector);
 bot.set('storage', tableStorage);
 
 bot.dialog('/', function (session) {
-    session.send('Lets try this again: ' + session.message.text);
+    session.send('Lets try this again::: ' + session.message.text);
 });
