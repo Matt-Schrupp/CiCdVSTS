@@ -37,5 +37,5 @@ var bot = new builder.UniversalBot(connector);
 bot.set('storage', tableStorage);
 
 bot.dialog('/', function (session) {
-    session.send('This is a change: ' + session.message.text);
+    session.send('changes being made: ' + session.message.text);
 });
